@@ -14,7 +14,7 @@ const onResetBtn=()=>{
     setCounter(0)
 }
   return (
-    <div style={{textAlign:"center",backgroundColor:"pink"}}>
+    <div style={{textAlign:"center",backgroundColor:"pink",}}>
         <h1>{counter}</h1>
         <div style={{textAlign:"center"}}>
             <button onClick={onIncrementBtn} style={{padding:"10px",margin:"10px",backgroundColor:"green",color:"white",borderRadius:"10px"}}>Increment</button>
